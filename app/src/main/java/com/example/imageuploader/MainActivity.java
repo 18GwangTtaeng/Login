@@ -42,6 +42,8 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
+    
+
     EditText TitleEt, startPrice, endPrice, pricePoint;
     TextView Enddate, EndTime;
     Button uploadBtn, showBtn;
