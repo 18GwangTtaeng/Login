@@ -14,9 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ImageUploader">
         <activity android:name=".Profile"></activity>
-        <activity android:name=".ListActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".ListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

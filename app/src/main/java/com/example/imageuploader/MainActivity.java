@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
     ProgressBar progressBar;
     ImageView addIv1;
     DatabaseReference root = FirebaseDatabase.getInstance().getReference("database");
+    DatabaseReference roott = FirebaseDatabase.getInstance().getReference("database");
     StorageReference reference = FirebaseStorage.getInstance().getReference();
     Uri imageUri;
 
